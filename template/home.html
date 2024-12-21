@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block title %}
+Home
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'home.css' %}">
+{% endblock css%}
+
+{% block body %}
+<div id="main_heading"> We only <span>teach</span> what we are really  really good at.</div>
+<div id="small_div">Get ready to <span>accelerate your carrer</span> with customized courses and leave your mark in the tech industry</div>
+<button id="check_course_button">Check Courses-Make an Impact</button>
+<div id="followers_container">
+    <div id="student" class="followers">
+        <h1>25+</h1>
+        <p class="user_contents">student taught</p>
+    <div id="instructors"  class="followers">
+        <h1>20+</h1>
+        <p class="user_contents">instructors</p>
+    </div>
+    <div id="youtube" class="followers">
+        <h1>431+</h1>
+        <p class="user_contents">youtube subs</p>
+    </div>
+</div>
+
+<div id="video_heading">we do what ever it takes to help you <span>understand the concepts</span></div>
+<iframe id="first_video" width="560" height="315" src="https://www.youtube.com/embed/60SRAWmMXyc?si=w-vCjwvLwDE7VFbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<button id="explore_button">Explore Free learning</button>
+<h1 id="course_heading">Courses Offered.</h1>
+
+
+<div id="div_one"  class="divisions"></div>
+<div id="div_two" class="divisions"></div>
+<div id="div_three" class="divisions"></div>
+<div id="div_four" class="divisions"></div>
+
+<button id="view_one"  class="buttons">View Details</button>
+<button id="view_two" class="buttons">View Details</button>
+<button id="view_three" class="buttons">View Details</button>
+
+<h1 id="company_line">Top <span> Companies</span> our Students Working with</h1>
+    <div id="company_container">
+        <img  id="netlink_img" class="company_logos" src="../static/images/netlink.png" alt="">
+        <img  id="mindtree_img" class="company_logos" src="../static/images/mindtreee.png" alt="">
+        <img  id="wallmart_img" class="company_logos" src="../static/images/walmart.png" alt="">
+        <br>
+        <img  id="rapid_img" class="company_logos" src="../static/images/rapid.png" alt="">
+        <img  id="tata_img" class="company_logos" src="../static/images/download.png" alt="">
+        <img  id="amazon_img" class="company_logos" src="../static/images/amazon_logo.png" alt="">
+        <img  id="wipro_img" class="company_logos" src="../static/images/wipro.png" alt="">
+        <img  id="geeks_img" class="company_logos" src="../static/images/geeks.png" alt="">
+    </div>
+    <div id="footer" style="border-top: 2px solid grey; border-bottom: 2px solid grey; width: 88%; ">
+        <div id="lets_connect">
+            <img  id="lion_head" src="../static/images/Sheryians_logo.webp" alt="">
+            <h1 id="lets_heading">Let's Connect with our Socials</h1>
+            <img class="social_img"  src="../static/images/insta.png" alt="">
+            <img  class="social_img" src="../static/images/linkedin.png" alt="">
+            <img  class="social_img" src="../static/images/doco.png" alt="">
+            <img  class="social_img" src="../static/images/youtube.png" alt="">
+            <img  class="social_img" src="../static/images/twitter.png" alt="">
+        </div>
+        <div id="company_div">
+            <h1 id="company">COMPANY</h1>
+            Aboutus <br> <br>Support <br><br> Privacy Policy <br><br> Terms and Conditions <br><br> Pricing and refund <br><br>Hire from us <br><br> Bug Bounty
+        </div>
+        <div id="community_div">
+            <h1 id="community">COMMUNITY</h1>
+            inertia <br><br> Discard
+        </div>
+        <div id="touch_div">
+            <h1 id="touch">Get in Touch</h1>
+            +91 8125489632 <br><br>+91 9873462878 <br><br>hello@sheryians.com <br><br> 23-B,indrapuri Sector <br><br> C, Bhopal (MP),46021
+        </div>
+        <br>
+        <div id="copyrights">
+            Copyrights @2024 Sheryians_Pvt Ltd. All Rights Reserved 
+        </div>
+    </div>
+{% endblock body %}
+

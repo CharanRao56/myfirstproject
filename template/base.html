@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        {% endblock title %}
+    </title>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+    {% block css %}
+    {% endblock css %}
+</head>
+<body>
+    <div id="container">
+            <h4>sheryians coding school</h4>
+            <img id="lion_img" src="../static/images/Sheryians_logo.webp" alt="">
+            <a id="home" href="{% url 'myapp:home' %}">Home</a>
+            <a href="{% url 'myapp:courses' %}">Courses</a>
+            <a href="{% url 'myapp:bootcamp' %}">bootcamp</a>
+            <a href="{% url 'myapp:requestCallBack' %}">requestcall</a>
+            <button id="signin_button">Sign In</button>
+    </div>
+  
+    {% block body %}
+    {% endblock body %}
+</body>
+</html>

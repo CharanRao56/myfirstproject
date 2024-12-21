@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block title %}
+Course
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'course.css' %}">
+{% endblock css %}
+
+{% block body  %}
+<h1 id="main_heading">we're not a <span>course factory.</span></h1>
+<h1 id="small_heading">we focus on courses that really help.</h1>
+
+<p>courses which do work ↓ </p>
+<div id="course_container">
+    <div id="card_one"   class="course_cards">
+        <button class="view_button">ViewButton</button>
+    </div>
+    <div id="card_two"  class="course_cards">
+        <button class="view_button">ViewButton</button>
+    </div>
+    <div id="card_three"  class="course_cards">
+        <button class="view_button">ViewButton</button>
+    </div>
+    <div id="card_four" class="course_cards">
+        <button class="view_button">ViewButton</button>
+    </div>
+    <div id="card_five" class="course_cards">
+        <button class="view_button">ViewButton</button>
+    </div>
+</div>
+<div id="footer" style="border-top: 2px solid grey; border-bottom: 2px solid grey; width: 88%; ">
+    <div id="lets_connect">
+        <img  id="lion_head" src="../static/images/Sheryians_logo.webp" alt="">
+        <h1 id="lets_heading">Let's Connect with our Socials</h1>
+        <img class="social_img"  src="../static/images/insta.png" alt="">
+        <img  class="social_img" src="../static/images/linkedin.png" alt="">
+        <img  class="social_img" src="../static/images/doco.png" alt="">
+        <img  class="social_img" src="../static/images/youtube.png" alt="">
+        <img  class="social_img" src="../static/images/twitter.png" alt="">
+    </div>
+    <div id="company_div">
+        <h1 id="company">COMPANY</h1>
+        Aboutus <br> <br>Support <br><br> Privacy Policy <br><br> Terms and Conditions <br><br> Pricing and refund <br><br>Hire from us <br><br> Bug Bounty
+    </div>
+    <div id="community_div">
+        <h1 id="community">COMMUNITY</h1>
+        inertia <br><br> Discard
+    </div>
+    <div id="touch_div">
+        <h1 id="touch">Get in Touch</h1>
+        +91 8125489632 <br><br>+91 9873462878 <br><br>hello@sheryians.com <br><br> 23-B,indrapuri Sector <br><br> C, Bhopal (MP),46021
+    </div>
+    <br>
+    <div id="copyrights">
+        Copyrights @2024 Sheryians_Pvt Ltd. All Rights Reserved 
+    </div>
+</div>
+{% endblock body %}
+
+

@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 2000px;
+}
+@font-face {
+    font-family: NeueMachina;
+    src: url(../static/fonts/NeueMachina-Light.otf);
+}
+#main_heading{
+    color: white;
+    width: 600px;
+    height: 20px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons{
+    width: 200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    top: 210px;
+    margin: 5px;
+    left: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.258);
+    backdrop-filter: blur(5px);
+    outline: none;
+    border-radius: 9px;
+    border: none;
+}
+#price{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 250px;
+    left: 50px;
+}
+span{
+    color: aqua;
+}
+#cost{
+    color: white;
+    position: relative;
+    top: 224px;
+    left: 254px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#big_heading{
+    width: 700px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    position: relative;
+    top: 400px;
+    left: 50px;
+}
+#big_cont{
+    width: 100%;
+}
+.courses{
+    background-color: rgba(128, 128, 128, 0.201);
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    height: 54px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 30px;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+
+}
+#course_division{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 400px;
+    left: 130px;
+}
+#last_heading{
+    color: white;
+    font-size: 170px;
+    width: 1100px;
+    height: 900px;
+    position: relative;
+    top: 400px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#timing{
+    color: white;
+    position: relative;
+    font: optional;
+    font-size: 30px;
+    left: 120px;
+    top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#video_bcamp{
+    width: 650px;
+    height: 350px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 1900px;
+    left: 700px;
+}
+#dominate{
+    color: white;
+    font-size: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 250px;
+    left: 90px;
+}
+#victory{
+    color: grey;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 240px;
+    left: 90px;
+}
+#course_list{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.complete_course{
+    margin: 40px;
+    position: relative;
+    left: 120px;
+}
+#footer{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.social_img{
+    width: 25px;
+    margin: 10px;
+    position: relative;
+    top: 200px;
+}
+#lets_heading{
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 200px;
+}
+#company_div{
+    color: white;
+    position: relative;
+    left:20%;
+}
+#community_div{
+    color: white;
+    position: relative;
+    bottom: 53%;
+    left: 50%;
+}
+#touch_div{
+    color: white;
+    position: relative;
+    bottom: 73%;
+    left: 74%;
+}
+#copyrights{
+    color: white;
+    position: relative;
+    top: -150px;
+    left: 450px;
+}
+#lion_head{
+    width: 20px;
+    position: relative;
+    top: 200px;
+}
